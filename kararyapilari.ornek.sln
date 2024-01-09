@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gazi.dongulerApp2", "gazi.d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "odev1", "odev1\odev1.csproj", "{3492A4F6-19B7-4E3B-ADD8-76D07462E29B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazi.DizilerAppsube1", "Gazi.DizilerAppsube1\Gazi.DizilerAppsube1.csproj", "{451F1701-5365-4DB6-8276-F2E55FA650EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3492A4F6-19B7-4E3B-ADD8-76D07462E29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3492A4F6-19B7-4E3B-ADD8-76D07462E29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3492A4F6-19B7-4E3B-ADD8-76D07462E29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451F1701-5365-4DB6-8276-F2E55FA650EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451F1701-5365-4DB6-8276-F2E55FA650EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451F1701-5365-4DB6-8276-F2E55FA650EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451F1701-5365-4DB6-8276-F2E55FA650EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

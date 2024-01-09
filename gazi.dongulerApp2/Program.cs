@@ -181,7 +181,7 @@
 
 
             Random rnd = new Random();
-            int number=rnd.Next(10);
+            int number=rnd.Next(0,10);
             byte attempt = 5;
             byte point = 0;
 
@@ -192,21 +192,27 @@
                  
                
                 while (true)
-                {  
+                {
+                    Console.WriteLine("Guess the number");
+                    int user=int.Parse(Console.ReadLine());
+
                     if (level == "K")
                     {
-                        point += 20;
-                        Console.WriteLine("you knew :D");
-                        Console.WriteLine("your poit:"+point);
-                        Console.ReadLine();
-                        break;
-                    }
-                    else
-                    {
-                        attempt--;
-                        Console.WriteLine("Wrong number!Try again!");
-                        Console.ReadKey();
-                        Console.Clear();
+                        if (user == number)
+                        {
+                            point += 20;
+                            Console.WriteLine("you knew :D");
+                            Console.WriteLine("your poit:" + point);
+                            Console.ReadLine();
+                            break;
+                        } 
+                        else
+                        {
+                            attempt--;
+                            Console.WriteLine("Wrong number!Try again!");
+                            Console.ReadKey();
+                            Console.Clear();
+                        }
                     }
                     if (level =="O")
                     {
