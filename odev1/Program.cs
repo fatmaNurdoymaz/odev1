@@ -110,12 +110,14 @@
                         sayilar[i] = tutulan;
                     }
                 }
-            }  
-               for (int i = 1;i < sayilar.Length;i++)
-               {
+
+            }
+            for (int i = 1; i < sayilar.Length; i++)
+            {
                 Console.WriteLine(sayilar[i]);
-               }
-                    
+            }
+
+
 
         }
     }
